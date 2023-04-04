@@ -8,7 +8,7 @@ export const Table = styled.table`
   width: 80%;
   border-collapse: collapse;
   border: 3px solid ${props => props.theme.colors.secondaryText};
-  margin: 0 auto;
+  /* margin: 0 auto; */
 
 
 `
