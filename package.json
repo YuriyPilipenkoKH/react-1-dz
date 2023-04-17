@@ -1,6 +1,7 @@
 {
   "name": "react-1-dz",
   "version": "0.1.0",
+  "homepage": "https://YuriyPilipenkoKH.github.io/react-1-dz",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -20,6 +21,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "go": "set PORT=3006 && react-scripts start",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
