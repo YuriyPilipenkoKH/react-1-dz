@@ -3,17 +3,14 @@ import { createRoot } from 'react-dom/client';
 
 import  "./css/index.css";
 import { App } from 'App/App';
-import {ThemeProvider} from  "@emotion/react"
-import { theme } from './constants/theme';
+// import {ThemeProvider} from  "@emotion/react"
+// import { theme } from './constants/theme';
 
 const root = createRoot(document.getElementById('root'));
 
 
 root.render(
   <StrictMode >
-    <ThemeProvider theme={theme}>
-      <App />
-    </ThemeProvider>
-    
+      <App >User</App>    
   </StrictMode>
 );

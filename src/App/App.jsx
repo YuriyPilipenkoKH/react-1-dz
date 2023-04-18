@@ -4,14 +4,15 @@ import transactions from 'data/transactions.json'
 import { Profile } from 'components/Profile/Profile';
 import { TransactionTable } from 'components/TransactionsHistory/TransactionHistory';
 import '../css/index.css'
-import user from '../data/user.json'
+import event from '../data/user.json'
+
+
 
 export const App = () => {
+  console.log(event);
   return (
-
     <div>
-      <Profile/>
-   {/* <TransactionTable transactions = {transactions} /> */}
+      <Profile>Profile</Profile>
     </div>
   );
 }; 
